@@ -28,8 +28,14 @@
 </head>
 <body>
   <h1>Pizarra Interactiva</h1>
+
+  <div>
+
+
+  </div>
+
   <div class="controls">
-    <label for="color">Color: </label>
+    <label for="color">HOla: </label>
     <input type="color" id="color" value="#000000">
     <label for="grosor">Grosor: </label>
     <input type="range" id="grosor" min="1" max="20" value="2">
@@ -49,6 +55,7 @@
         y: evt.clientY - rect.top
       };
     }
+ 
 
     canvas.addEventListener('mousedown', e => {
       pintando = true;
